@@ -26,7 +26,6 @@ public class CarArrayList implements CarList {
         for (int i = 0; i < size; i++) {
             if (array[i].equals(car)) {
                 removeAt(i);
-                size--;
                 return true;
             }
 
